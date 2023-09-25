@@ -12,7 +12,7 @@ stages:
   Acceptance:
     cloudFoundryDeploy: false
     cfApiEndpoint: "https://api.cf.eu10.hana.ondemand.com"
-    cfOrg: "KTE_CLDTRAIN_A_cld900-c00-ji0exaje"
+    cfOrg: "KTE_CLDTRAIN_A_cld920-setup-y6lipbpv"
     cfSpace: "dev"
     cfAppName: "cicdvideos"
     cfCredentialsId: "deploy-to-cf"
@@ -23,7 +23,7 @@ stages:
   Release:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.eu10.hana.ondemand.com"
-    cfOrg: "KTE_CLDTRAIN_A_cld900-c00-ji0exaje"
+    cfOrg: "KTE_CLDTRAIN_A_cld920-setup-y6lipbpv"
     cfSpace: "dev"
     cfAppName: "cicdvideos"
     cfCredentialsId: "deploy-to-cf"
