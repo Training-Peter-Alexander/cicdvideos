@@ -23,7 +23,7 @@ stages:
   Release:
     cloudFoundryDeploy: true
     cfApiEndpoint: "ttps://api.cf.eu10-004.hana.ondemand.com"
-    cfOrg: "KTE_CLDTRAIN_A_cld920-setup-y6lipbpv"
+    cfOrg: "KTE_CLDTRAIN_A_cld900-c01-lq1d7419"
     cfSpace: "dev"
     cfAppName: "cicdvideos"
     cfCredentialsId: "deploy-to-cf"
